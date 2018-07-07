@@ -4,7 +4,10 @@ My experimental project using Angular, a web application framework and firestore
 
 The application works as a daskboard with an admin uploading task and tasks are visible to employees
 
+put $npm install on command line
 
+
+<hr><hr><hr>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 
