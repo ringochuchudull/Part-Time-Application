@@ -2,6 +2,9 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { HomePage } from '../home/home';
 import { ListPage } from '../list/list';
+
+import { Storage } from '@ionic/storage';
+
 /*
  * Generated class for the TabsPage page.
  *
@@ -14,16 +17,19 @@ import { ListPage } from '../list/list';
 })
 export class TabsPage {
 
+  sectionTitle: string;
+
   tab1Root: any = HomePage;
   tab2Root: any = ListPage;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
-  
-  
-  }
+  constructor(public navCtrl: NavController, public navParams: NavParams,
+              public storage: Storage) {
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad TabsPage');
+   // storage.get('section').then((val) => {
+   //   console.log('The title should be (via TabPage)', val);
+   //   this.sectionTitle = val;
+   // });
+  
   }
 
 }
