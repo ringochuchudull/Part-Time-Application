@@ -20,12 +20,11 @@ export class HomePage {
       this.mainOperation(this.sectionTitle);
     });
 
-  //  console.log("Test it", this.sectionTitle)
   }
 
   mainOperation( titlename ){
     this.sectionTitle = titlename
-    console.log("Main Operation " + this.sectionTitle);
+    console.log("Main Operation LT " + this.sectionTitle);
 
   }
 
