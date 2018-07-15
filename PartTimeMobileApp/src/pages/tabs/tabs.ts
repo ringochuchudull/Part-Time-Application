@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { HomePage } from '../home/home';
 import { ListPage } from '../list/list';
+import { }
 /**
  * Generated class for the TabsPage page.
  *
@@ -18,6 +19,8 @@ export class TabsPage {
   tab2Root: any = ListPage;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+  
+  
   }
 
   ionViewDidLoad() {
