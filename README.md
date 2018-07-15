@@ -22,27 +22,27 @@ For mac, on your top right corner, search 'Terminal' and open it
 
 On your terminal, put this line allowing you to have a copy on your machine, this only need to be done once
 
-'''shell
+```
 cd ~/Desktop
-'''
-
-'''shell
+```
+```
 git clone  https://github.com/ringochu/Part-Time-Application.git
-'''
+```
 
 Now you should see a 'Part-Time-Application folder' on desktop (Home screen)
 <hr>
+
 Since PTMobileApp and PTWebApp are seperate application.
 You're sincerely invited to look at the Database feature first, and then the Mobile app
 
 On the same terminal, type and enter
-'''shell
+```shell
 cd PTWebApp
-'''
+```
 
-'''shell
+```shell
 sudo npm install
-'''
+```
 
 '''shell
 ng serve
