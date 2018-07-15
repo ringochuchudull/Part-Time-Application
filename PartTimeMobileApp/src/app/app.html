@@ -5,7 +5,11 @@
     </ion-toolbar>
   </ion-header>
 
+
   <ion-content>
+
+  <ion-searchbar></ion-searchbar>
+  
     <ion-list>
       <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
         {{p.title}}
