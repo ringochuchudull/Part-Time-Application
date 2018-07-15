@@ -44,6 +44,6 @@ cd PTWebApp
 sudo npm install
 ```
 
-'''shell
+```shell
 ng serve
-'''
+```
