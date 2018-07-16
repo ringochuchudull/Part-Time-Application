@@ -14,4 +14,16 @@
 
   <p>{{sectionTitle}} hire people</p>
 
+  <ion-card *ngFor="let post of postList | async" 
+  (click)="goToDetailPage(post)">
+  <ion-card-header>
+    {{ post.title }}
+  </ion-card-header>
+  <ion-card-content>
+    {{ post.content }}
+  </ion-card-content>
+</ion-card>
+
+
+
 </ion-content>

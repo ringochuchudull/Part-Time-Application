@@ -11,6 +11,19 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+import { AngularFireModule } from 'angularfire2';
+import { AngularFirestoreModule } from 'angularfire2/firestore';
+import { FirestoreProvider } from '../providers/firestore/firestore';
+
+export const firebaseConfig = {
+  apiKey: "AIzaSyBVVlS8iN5Y6EzTHepACgp80ntmWxxWNrk",
+  authDomain: "uclupasssystem.firebaseapp.com",
+  databaseURL: "https://uclupasssystem.firebaseio.com",
+  projectId: "uclupasssystem",
+  storageBucket: "uclupasssystem.appspot.com",
+  messagingSenderId: "903313339253"
+};
+
 @NgModule({
   declarations: [
     MyApp,
@@ -22,6 +35,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     BrowserModule,
     IonicModule.forRoot(MyApp),
     IonicStorageModule.forRoot(),
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFirestoreModule,
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -33,7 +48,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    FirestoreProvider
   ]
 })
 export class AppModule {}
