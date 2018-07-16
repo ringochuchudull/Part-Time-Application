@@ -5,6 +5,8 @@ import { Post } from '../../models/post.interface';
 import { FirestoreProvider } from '../../providers/firestore/firestore';
 import { Observable } from 'rxjs/Observable';
 
+import { DetailPage } from '../detail/detail';
+
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -29,6 +31,11 @@ export class HomePage {
   ionViewDidLoad() {
     this.postList = this.firestoreProvider.getPostList().valueChanges();
   }
+
+  goToDetailPage(post: Post): void {
+    this.navCtrl.push(DetailPage, {post:post} );
+  }
+
 
   mainOperation( titlename ){
     this.sectionTitle = titlename
