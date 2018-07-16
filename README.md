@@ -27,7 +27,7 @@ On your terminal, put this line allowing you to have a copy on your machine, thi
 cd ~/Desktop
 ```
 ```
-git clone  https://github.com/ringochu/Part-Time-Application.git
+git clone https://github.com/ringochu/Part-Time-Application.git
 ```
 
 Now you should see a 'Part-Time-Application folder' on desktop (Home screen)
