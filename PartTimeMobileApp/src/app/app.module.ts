@@ -35,10 +35,11 @@ export const firebaseConfig = {
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp),
+    IonicModule.forRoot(MyApp, {tabsHideOnSubPages:true}),
     IonicStorageModule.forRoot(),
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFirestoreModule,
+    
   ],
   bootstrap: [IonicApp],
   entryComponents: [
