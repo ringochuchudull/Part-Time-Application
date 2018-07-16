@@ -8,5 +8,15 @@
 </ion-header>
 
 <ion-content>
+    <p>{{sectionTitle}} hire people, Please do not click on any of the button it'll crash the application</p>
 
+    <ion-card *ngFor="let post of postList | async" 
+    (click)="goToDetailPage(post)">
+    <ion-card-header>
+      {{ post.title }}
+    </ion-card-header>
+    <ion-card-content>
+      {{ post.content }}
+    </ion-card-content>
+  </ion-card>
 </ion-content>

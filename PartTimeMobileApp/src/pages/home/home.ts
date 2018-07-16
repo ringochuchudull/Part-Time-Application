@@ -23,7 +23,6 @@ export class HomePage {
     storage.get('section').then((val) => {
       this.sectionTitle = val;
       console.log("Left-TabPage-Title: " + this.sectionTitle);
-      this.mainOperation(this.sectionTitle);
     });
 
   }
