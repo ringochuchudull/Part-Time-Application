@@ -57,6 +57,7 @@ ng serve
 Visit <a href='http://localhost:4200/'> http://localhost:4200/ </a> to check the web application on your web browser (IE, google chrome, firefox etc)
 
 <hr> 
+
 ### Mobile application
 
 Open another new terminal, (At the bottom, right click terminal icon, select new window), put following commands in order
