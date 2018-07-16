@@ -4,18 +4,20 @@
  <br><br>
 <input type="text" [(ngModel)]="title" name="title" placeholder="Title..">
 <textarea [(ngModel)]="content" name="content" placeholder="Content.."></textarea>
+<textarea [(ngModel)]="durationtime" name="timedate1" placeholder="Enterdate.."></textarea>
+<textarea [(ngModel)]="left" name="left" placeholder="Is Left.."></textarea>
 <input type="submit" value="Add a Post" (click)="addPost()">
 
-<section class="jumbotron text-center">
+<!-- <section class="jumbotron text-center">
     <div class="container">
       <h1 class="jumbotron-heading"> Dashboard</h1>
-      <p class="lead text-muted">dfgdfg</p>
+      <p class="lead text-muted">Belows are records</p>
       <p>
         <a href="#" class="btn btn-primary my-2">Main call to action</a>
         <a href="#" class="btn btn-secondary my-2">Secondary action</a>
       </p>
     </div>
-  </section>
+  </section> -->
 
 <!-- <div class="container">
     <div class="starter-template">
@@ -23,7 +25,7 @@
         <p class="lead">Tasks</p>
     </div>
 </div> -->
-
+<!-- <section class="jumbotron text-center"> -->
 <div class="container starter-template card-body">
 <ul class="border" *ngFor="let post of posts | async">
   <div (click)="getPost(post.id)">
@@ -31,12 +33,18 @@
     <p class="lead">
     {{post.data.content}}
     </p>
+    <p class="lead">
+     {{post.data.durationtime}}
+      </p>
+      <p class="lead">
+       Is 請人: {{post.data.left}}
+        </p>
     (<a href="#" (click)="deletePost(post.id)">delete</a>)
   </div>
   <br>
 </ul>
 </div>
-
+<!-- </section> -->
 
 <!-- <div class="container starter-template">
     <div class="col-md-4">

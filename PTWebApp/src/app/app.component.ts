@@ -7,7 +7,9 @@ import 'rxjs/add/operator/map';
 
 interface Post{
   title: string;
+  durationtime: string;
   content: string;
+  left: number;
 }
 
 interface PostID extends Post{
@@ -28,6 +30,9 @@ export class AppComponent {
   title:string;
   content:string;
 
+  durationtime: string;
+  left: number;
+
   postDoc: AngularFirestoreDocument<Post>;
   post: Observable<Post>;
 
@@ -46,7 +51,7 @@ export class AppComponent {
   }
   
   addPost() {
-    this.afs.collection('posts').doc(this.title).set({'title': this.title, 'content': this.content});
+    this.afs.collection('posts').doc(this.title).set({'title': this.title, 'content': this.content, 'durationtime':this.durationtime, 'left': this.left });
   }
 
   getPost(postId) {
