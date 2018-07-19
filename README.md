@@ -79,7 +79,9 @@ New windows should pop on your screen automatically
 
 ### To see the application in the future
  
- #### Web app
+ #### <a href="https://uclupasssystem.firebaseapp.com">Web app</a> 
+ 
+ ##### Can also be viewed here temporary https://uclupasssystem.firebaseapp.com/
 ``` Put the following lines on your terminal 
 cd ~/Desktop/Part-Time-Application/PTWebApp
 ng serve
