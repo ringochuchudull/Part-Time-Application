@@ -1,3 +1,15 @@
 page-tabs {
-
+   
+}
+.tabs-md .tabbar {
+    background: #000;
+}
+// all tabs texts
+.tabs-md .tab-button-text {
+	font-size: 14px;
+	color: #fff;
+}
+// selected tab
+.tabs-md .tab-button[aria-selected=true] {
+	background-color: #fff;
 }
