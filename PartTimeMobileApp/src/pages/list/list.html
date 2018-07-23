@@ -7,8 +7,47 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content>
-    <p>{{sectionTitle}} hire people, Please do not click on any of the button it'll crash the application</p>
+<ion-content padding>
+  <!-- <p>{{sectionTitle}} hire people, Please do not click on any of the button it'll crash the application</p> -->
+
+ 
+  <ion-item>
+      <ion-label floating>標題</ion-label>
+      <ion-input [(ngModel)]="title" ></ion-input>
+    </ion-item>
+  
+  <ion-item>
+      <ion-label>地區</ion-label>
+      <ion-select interface="popover" [(ngModel)]="region">
+        <ion-option value="hk">HK</ion-option>
+        <ion-option value="kowloon">9龍</ion-option>
+        <ion-option value="nt">新界</ion-option>
+      </ion-select>
+  </ion-item>
+  
+  <ion-item>
+      <ion-label>日期</ion-label>
+      <ion-datetime displayFormat="DD/MM/YYYY" [(ngModel)]="durationtime"></ion-datetime>
+  </ion-item>
+
+  <ion-item>
+      <ion-label>內容</ion-label>
+      <ion-textarea [(ngModel)]="content" name="content" placeholder="Content.."></ion-textarea>
+  </ion-item>
+
+  <ion-item>
+      <ion-label>備註</ion-label>
+      <ion-textarea [(ngModel)]="extranotes" name="extranotes" placeholder="..."></ion-textarea>
+  </ion-item>
+
+  <button ion-button color="themecol" type="submit" (click)="addPost()">提交</button>
+
+<br>
+  <!-- <textarea [(ngModel)]="content" name="content" placeholder="Content.."></textarea>
+  <textarea [(ngModel)]="durationtime" name="timedate1" placeholder="Enterdate.."></textarea>
+  <textarea [(ngModel)]="left" name="left" placeholder="Is Left.."></textarea>
+  <input type="submit" value="Add a Post" (click)="addPost()">
+
 
     <ion-card *ngFor="let post of postList | async" 
     (click)="goToDetailPage(post)">
@@ -18,5 +57,7 @@
     <ion-card-content>
       {{ post.content }}
     </ion-card-content>
-  </ion-card>
+  </ion-card> -->
+
+
 </ion-content>
