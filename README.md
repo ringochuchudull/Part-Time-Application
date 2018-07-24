@@ -11,6 +11,21 @@ PartTimeWebApp is the web application which is connected to the 'Part-time job' 
 
 * PTMobileApp is no longer in use, please ignore that file.
 
+### If you have installed the application, all you have to do are these...
+ 
+ #### <a href="https://uclupasssystem.firebaseapp.com">Web app</a> 
+ 
+ ##### Can also be viewed here temporary https://uclupasssystem.firebaseapp.com/
+``` Put the following lines on your terminal 
+cd ~/Desktop/Part-Time-Application/PTWebApp
+ng serve
+```
+  #### Mobile App
+  ```
+  cd ~/Desktop/Part-Time-Application/PartTimeMobileApp
+  ionic serve --lab
+  ```
+<hr>
 
 ## Installation 
 
@@ -47,10 +62,10 @@ On the same terminal, type and enter the commands in the following order, also p
 cd PTWebApp
 ```
 ```
-sudo npm install -g @angular/cli 
+npm install
 ```
 ```shell
-npm install
+sudo npm install -g @angular/cli 
 ```
 
 ```shell
@@ -67,10 +82,10 @@ Open another new terminal, (At the bottom, right click terminal icon, select new
 cd ~/Desktop/Part-Time-Application/PartTimeMobileApp
 ```
 ```
-sudo npm install -g ionic cordova
-```
-```
 npm install
+```
+```
+sudo npm install -g ionic cordova
 ```
 ```
 ionic serve --lab
@@ -78,18 +93,3 @@ ionic serve --lab
 New windows should pop on your screen automatically 
 
 <hr>
-
-### To see the application in the future
- 
- #### <a href="https://uclupasssystem.firebaseapp.com">Web app</a> 
- 
- ##### Can also be viewed here temporary https://uclupasssystem.firebaseapp.com/
-``` Put the following lines on your terminal 
-cd ~/Desktop/Part-Time-Application/PTWebApp
-ng serve
-```
-  #### Mobile App
-  ```
-  cd ~/Desktop/Part-Time-Application/PartTimeMobileApp
-  ionic serve --lab
-  ```
