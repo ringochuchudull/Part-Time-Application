@@ -11,9 +11,11 @@ PartTimeWebApp is the web application which is connected to the 'Part-time job' 
 
 * PTMobileApp is no longer in use, please ignore that file.
 
+<hr>
+
 ### If you have installed the application, all you have to do are these...
  
- #### <a href="https://uclupasssystem.firebaseapp.com">Web app</a> 
+ #### Web app 
  
  ##### Can also be viewed here temporary https://uclupasssystem.firebaseapp.com/
 ``` Put the following lines on your terminal 
