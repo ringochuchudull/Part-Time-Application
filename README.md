@@ -1,5 +1,5 @@
 # Part-Time-Application
-Future system to help people finding a part time job. :shit:
+Future system to help people finding a part time job. :shit: Co-authored with Ching and Ringo.
 
 <div style="color:white;">
 
@@ -16,15 +16,18 @@ ______           _      _   _                   _____
 
 ## Description:
 
-PTMobileApp is the mobile application built in "Ionic3" framework, which runs on Android and iOS, also connected to database
-<br>
+PTMobileApp is the mobile application built in "Ionic3" framework, which runs on Android and iOS.<br>
 
-PartTimeWebApp is the web application which is connected to the 'Part-time job' database
+PartTimeWebApp is the web application; PartTimeMobileApp is the mobile application, they're both connected to Database which stores all information
 <br>
 
 * PTMobileApp is no longer in use, please ignore that file.
 
 <hr>
+
+### Objectives
+-[x]
+-[x]
 
 ### If you have installed the application, all you have to do are these...
  
