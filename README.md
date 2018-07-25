@@ -29,7 +29,7 @@ PartTimeWebApp is the web application; PartTimeMobileApp is the mobile applicati
 - [x] Establish Channel with the DB
 - [x] Updates depencenies 
 - [ ]  Modify Data object type to increase query speed
-- [ ]
+- [ ] 
 ### If you have installed the application, all you have to do are these...
  
  #### Web app 
