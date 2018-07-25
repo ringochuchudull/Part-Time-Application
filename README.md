@@ -1,6 +1,13 @@
 # Part-Time-Application
 Future system to help people finding a part time job.
 
+ ____   ____ ____  ______      ______ ____ ___ ___   ___       ____  ___  ____  
+|    \ /    |    \|      |    |      |    |   |   | /  _]     |    |/   \|    \ 
+|  o  )  o  |  D  )      |    |      ||  || _   _ |/  [_      |__  |     |  o  )
+|   _/|     |    /|_|  |_|    |_|  |_||  ||  \_/  |    _]     __|  |  O  |     |
+|  |  |  _  |    \  |  |        |  |  |  ||   |   |   [_     /  |  |     |  O  |
+|  |  |  |  |  .  \ |  |        |  |  |  ||   |   |     |    \  `  |     |     |
+|__|  |__|__|__|\_| |__|        |__| |____|___|___|_____|     \____j\___/|_____|
 ## Description:
 
 PTMobileApp is the mobile application built in "Ionic3" framework, which runs on Android and iOS, also connected to database
@@ -26,6 +33,12 @@ ng serve
   ```
   cd ~/Desktop/Part-Time-Application/PartTimeMobileApp
   ionic serve --lab
+  ```
+  
+### If you want to update applications, open your terminal, 
+  ```
+  cd ~/Desktop/Part-Time-Application
+  git pull origin master
   ```
 <hr>
 
