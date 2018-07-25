@@ -1,5 +1,7 @@
 # Part-Time-Application
 Future system to help people finding a part time job. :shit:
+
+<div style="color:white;">
 <pre style="color:transparent;" fill="white">
 ______           _     _   _                    ___       _        
 | ___ \         | |   | | (_)                  |_  |     | |        
@@ -8,6 +10,7 @@ ______           _     _   _                    ___       _
 | |  | (_| | |  | |_  | |_| | | | | | |  __/ /\__/ / (_) | |_) | 
 \_|   \__,_|_|   \__|  \__|_|_| |_| |_|\___| \____/ \___/|_.__/  
  </pre>
+</div>
 
 ## Description:
 
