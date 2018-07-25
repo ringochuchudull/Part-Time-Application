@@ -1,6 +1,6 @@
 # Part-Time-Application
 Future system to help people finding a part time job. :shit:
-<pre style="color:white;">
+<pre style="color:transparent;">
 ______           _     _   _                    ___       _        
 | ___ \         | |   | | (_)                  |_  |     | |        
 | |_/ /__ _ _ __| |_  | |_ _ _ __ ___   ___      | | ___ | |__    
