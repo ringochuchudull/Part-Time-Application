@@ -1,6 +1,6 @@
 # Part-Time-Application
 Future system to help people finding a part time job.
-<p>
+<pre>
 ______           _     _   _                    ___       _         <br>
 | ___ \         | |   | | (_)                  |_  |     | |          <br>
 | |_/ /__ _ _ __| |_  | |_ _ _ __ ___   ___      | | ___ | |__    <br>
@@ -9,7 +9,7 @@ ______           _     _   _                    ___       _         <br>
 \_|   \__,_|_|   \__|  \__|_|_| |_| |_|\___| \____/ \___/|_.__/  <br>
  <br>
  
- </p>
+ </pre>
 
 ## Description:
 
