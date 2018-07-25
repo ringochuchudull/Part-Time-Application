@@ -1,5 +1,5 @@
 # Part-Time-Application
-Future system to help people finding a part time job.
+Future system to help people finding a part time job. :shit:
 <pre style="color:white;">
 ______           _     _   _                    ___       _        
 | ___ \         | |   | | (_)                  |_  |     | |        
