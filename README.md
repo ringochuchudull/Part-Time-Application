@@ -23,13 +23,15 @@ PartTimeWebApp is the web application; PartTimeMobileApp is the mobile applicati
 
 * PTMobileApp is no longer in use, please ignore that file.
 
-<hr>
 
-### Objectives
+## Objectives
 - [x] Establish Channel with the DB
 - [x] Updates depencenies 
 - [ ]  Modify Data object type to increase query speed
 - [ ] 
+
+## General Guideline
+
 ### If you have installed the application, all you have to do are these...
  
  #### Web app 
@@ -45,12 +47,11 @@ ng serve
   ionic serve --lab
   ```
   
-### If you want to update applications, open your terminal, 
+### If you want to update applications, open your terminal, then enter:
   ```
   cd ~/Desktop/Part-Time-Application
   git pull origin master
   ```
-<hr>
 
 ## Installation 
 
