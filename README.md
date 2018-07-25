@@ -28,7 +28,7 @@ PartTimeWebApp is the web application; PartTimeMobileApp is the mobile applicati
 - [x] Establish Channel with the DB
 - [x] Updates depencenies 
 - [ ]  Modify Data object type to increase query speed
-- [ ] 
+- [ ]  Update web application, awa including AuthModule
 
 ## General Guideline
 
