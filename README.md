@@ -26,9 +26,8 @@ PartTimeWebApp is the web application; PartTimeMobileApp is the mobile applicati
 <hr>
 
 ### Objectives
--[x]
--[x]
-
+    * [x] 
+    * [x] 
 ### If you have installed the application, all you have to do are these...
  
  #### Web app 
