@@ -1,16 +1,57 @@
 # Part-Time-Application
-Future system to help people finding a part time job.
+Future system to help people finding a part time job. :shit: Co-authored with Ching and Ringo.
+
+<div style="color:white;">
+
+<pre style="color:none;"> 
+__________                  __         __   .__                        ________          
+\______   \_____  _______ _/  |_     _/  |_ |__|  _____    ____       /  _____/   ____   
+ |     ___/\__  \ \_  __ \\   __\    \   __\|  | /     \ _/ __ \     /   \  ___  /  _ \  
+ |    |     / __ \_|  | \/ |  |       |  |  |  ||  Y Y  \\  ___/     \    \_\  \(  <_> ) 
+ |____|    (____  /|__|    |__|       |__|  |__||__|_|  / \___  >     \______  / \____/  
+                \/                                    \/      \/             \/          
+ </pre>
+
+</div>
 
 ## Description:
 
-PTMobileApp is the mobile application built in "Ionic3" framework, which runs on Android and iOS, also connected to database
-<br>
+PTMobileApp is the mobile application built in "Ionic3" framework, which runs on Android and iOS.<br>
 
-PartTimeWebApp is the web application which is connected to the 'Part-time job' database
+PartTimeWebApp is the web application; PartTimeMobileApp is the mobile application, they're both connected to Database which stores all information
 <br>
 
 * PTMobileApp is no longer in use, please ignore that file.
 
+
+## Objectives
+- [x] Establish Channel with the DB
+- [x] Updates depencenies 
+- [ ]  Modify Data object type to increase query speed
+- [ ]  Update web application, awa including AuthModule
+
+## General Guideline
+
+### If you have installed the application, all you have to do are these...
+ 
+ #### Web app 
+ 
+ ##### Can also be viewed here temporary https://uclupasssystem.firebaseapp.com/
+``` Put the following lines on your terminal 
+cd ~/Desktop/Part-Time-Application/PTWebApp
+ng serve
+```
+  #### Mobile App
+  ```
+  cd ~/Desktop/Part-Time-Application/PartTimeMobileApp
+  ionic serve --lab
+  ```
+  
+### If you want to update applications, open your terminal, then enter:
+  ```
+  cd ~/Desktop/Part-Time-Application
+  git pull origin master
+  ```
 
 ## Installation 
 
@@ -47,10 +88,10 @@ On the same terminal, type and enter the commands in the following order, also p
 cd PTWebApp
 ```
 ```
-sudo npm install -g @angular/cli 
+npm install
 ```
 ```shell
-npm install
+sudo npm install -g @angular/cli 
 ```
 
 ```shell
@@ -67,10 +108,10 @@ Open another new terminal, (At the bottom, right click terminal icon, select new
 cd ~/Desktop/Part-Time-Application/PartTimeMobileApp
 ```
 ```
-sudo npm install -g ionic cordova
-```
-```
 npm install
+```
+```
+sudo npm install -g ionic cordova
 ```
 ```
 ionic serve --lab
@@ -78,18 +119,3 @@ ionic serve --lab
 New windows should pop on your screen automatically 
 
 <hr>
-
-### To see the application in the future
- 
- #### <a href="https://uclupasssystem.firebaseapp.com">Web app</a> 
- 
- ##### Can also be viewed here temporary https://uclupasssystem.firebaseapp.com/
-``` Put the following lines on your terminal 
-cd ~/Desktop/Part-Time-Application/PTWebApp
-ng serve
-```
-  #### Mobile App
-  ```
-  cd ~/Desktop/Part-Time-Application/PartTimeMobileApp
-  ionic serve --lab
-  ```
