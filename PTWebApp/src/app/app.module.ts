@@ -8,6 +8,8 @@ import { FormsModule } from '@angular/forms';
 import { AppNavbarComponent } from './app-navbar/app-navbar.component';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { LoginComponent } from './login/login.component';
+import { AdminComponent } from './admin/admin.component';
 
 var firebaseConfig = {
   apiKey: "AIzaSyBVVlS8iN5Y6EzTHepACgp80ntmWxxWNrk",
@@ -21,7 +23,9 @@ var firebaseConfig = {
 @NgModule({
   declarations: [
     AppComponent,
-    AppNavbarComponent
+    AppNavbarComponent,
+    LoginComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
