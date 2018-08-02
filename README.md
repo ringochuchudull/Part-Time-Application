@@ -21,8 +21,13 @@ PTMobileApp is the mobile application built in "Ionic3" framework, which runs on
 PartTimeWebApp is the web application; PartTimeMobileApp is the mobile application, they're both connected to Database which stores all information
 <br>
 
-* PTMobileApp is no longer in use, please ignore that file.
-
+## Prerequisites:
+* Good understanding of git and npm
+* HTML, CSS, Javascript and Bootstrap
+* Ionic 3 framework with AngularFire2, Firebase, Firestore
+* Angular Framework with AngularFire2, Firebase, Firestore
+* React.JS, express.JS
+* Usage of MySQL database, PHP for server-side scripting, Auth0 Tokens
 
 ## Objectives
 - [x] Establish Channel with the DB
