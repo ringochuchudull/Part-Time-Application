@@ -1,46 +1,33 @@
-<ion-header >
-  <ion-navbar>
-    <button ion-button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
-    <ion-title color="primary">{{sectionTitle}} 搵工</ion-title>
-  </ion-navbar>
+<ion-header>
+    <ion-navbar no-border-bottom>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>  
+      <ion-title color="primary" middle>{{sectionTitle}} 搵工</ion-title>
+      <ion-buttons end>
+        <button ion-button icon-only (click)="presentFilter()">
+          <ion-icon ios="ios-options-outline" md="md-options"></ion-icon>
+        </button>
+      </ion-buttons> 
+    </ion-navbar>
 </ion-header>
+  
 
 <ion-content padding>
-
-  <!-- <button ion-button secondary menuToggle>Toggle Menu</button>
-  <p>Home menu</p> 
-
-  <div class="button-bar">
-    <button ion-button icon-start small>
-      <ion-icon name="home"></ion-icon>
-      Left 
-    </button>
-    <button ion-button icon-start small>
-      <ion-icon name="home"></ion-icon>
-      Middle 
-    </button>
-    <button ion-button icon-start small>
-      <ion-icon name="home"></ion-icon>
-      Right 
-    </button>
-  </div>
-
-  <div class="bar bar-header">
-      <button class="button button-icon icon ion-navicon"></button>
-      <div class="h1 title">Header Buttons</div>
-      <button class="button button-clear button-positive">Edit</button>
-    </div>
-    <div class="button-bar">
-        <a class="button">First</a>
-        <a class="button">Second</a>
-        <a class="button">Third</a>
-      </div>
-  <hr> -->
+  <ion-segment>
+    <ion-segment-button value="selected">
+      精選
+    </ion-segment-button>
+    <ion-segment-button value="newest">
+      最新
+    </ion-segment-button>
+    <ion-segment-button value="highsalary">
+      高薪
+  </ion-segment-button>
+</ion-segment>
 
   <ion-slides>
-    <ion-slide>
+    <ion-slide value="selected">
       <h1>Slide 1</h1>
       <ion-list *ngFor="let post of postList | async" inset>
         <ion-grid>
@@ -60,10 +47,10 @@
       </ion-list>
     </ion-slide>
     
-    <ion-slide>
+    <ion-slide value="newest">
       <h1>Slide 2</h1>
     </ion-slide>
-    <ion-slide>
+    <ion-slide value="highsalary">
       <h1>Slide 3</h1>
     </ion-slide>
   </ion-slides>
