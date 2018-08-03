@@ -14,14 +14,16 @@ import { AngularFirestore } from 'angularfire2/firestore'
 })
 export class ListPage {
 
-  sectionTitle: string;
   public postList: Observable<Post[]>;
+  sectionTitle: string;
 
-  title:string;
+  title: string;
   region: string;
   durationtime: string;
-  content:string;
-  left: number = 0;
+  content: string;
+  numLikes: Number = 0;
+
+  left: number = 0; //Can be ignored
 //  selectedItem: any;
  // icons: string[];
  // items: Array<{title: string, note: string, icon: string}>;
@@ -42,7 +44,7 @@ export class ListPage {
   }
 
   addPost() {
-    this.afs.collection('posts').doc(this.title).set({'title': this.title, 'content': this.content, 'durationtime':this.durationtime, 'left': this.left, 'type':this.sectionTitle });
+    this.afs.collection(this.sectionTitle).doc(this.title).set({'title': this.title, 'content': this.content, 'durationtime':this.durationtime, 'left': this.left, 'type':this.sectionTitle });
     this.presentToast();
   }
 

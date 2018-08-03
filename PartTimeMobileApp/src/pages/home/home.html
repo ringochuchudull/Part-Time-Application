@@ -10,26 +10,38 @@
         </button>
       </ion-buttons> 
     </ion-navbar>
+    <ion-segment>
+        <ion-segment-button value="selected">
+                精選
+        </ion-segment-button>
+        <ion-segment-button value="newest">
+                最新
+        </ion-segment-button>
+        <ion-segment-button value="highsalary">
+                高薪
+        </ion-segment-button>
+      </ion-segment>
 </ion-header>
   
 
 <ion-content padding>
-  <ion-segment>
-    <ion-segment-button value="selected">
-      精選
-    </ion-segment-button>
-    <ion-segment-button value="newest">
-      最新
-    </ion-segment-button>
-    <ion-segment-button value="highsalary">
-      高薪
+<!-- <ion-segment>
+  <ion-segment-button value="selected">
+          精選
   </ion-segment-button>
-</ion-segment>
-
+  <ion-segment-button value="newest">
+          最新
+  </ion-segment-button>
+  <ion-segment-button value="highsalary">
+          高薪
+  </ion-segment-button>
+</ion-segment> -->
+<ion-card-content>
   <ion-slides>
     <ion-slide value="selected">
-      <h1>Slide 1</h1>
-      <ion-list *ngFor="let post of postList | async" inset>
+      <h5>Scroll to right</h5>
+
+      <ion-list *ngFor="let post of postList | async" (click)="goToDetailPage(post)">
         <ion-grid>
           <ion-row justify-content-start>
             <ion-col col-6>
@@ -55,35 +67,5 @@
     </ion-slide>
   </ion-slides>
 
-  <!--<p>{{sectionTitle}} hire people, Please do not click on any of the button it'll crash the application</p> -->
- <!-- <ion-list *ngFor="let post of postList | async" inset>
-  <ion-grid>
-    <ion-row justify-content-start>
-      <ion-col col-6>
-          <h6>{{ post.title }}</h6>
-          <p>{{ post.content }}</p>
-      </ion-col>
-      <ion-col col-3>
-          <p>Location</p>
-      </ion-col>
-      <ion-col col-3>
-          <p>paid</p>
-      </ion-col>
-    </ion-row>  
-  </ion-grid>
-  </ion-list> -->
-
-
-  <!--<ion-card *ngFor="let post of postList | async" 
-  (click)="goToDetailPage(post)">
-  <ion-card-header>
-    {{ post.title }}
-  </ion-card-header>
-  <ion-card-content>
-    {{ post.content }}
-  </ion-card-content>
-</ion-card> -->
-
-
-
+</ion-card-content>
 </ion-content>
