@@ -52,7 +52,7 @@ ng serve
   ionic serve --lab
   ```
   
-### If you want to update applications, open your terminal, then enter:
+### To update the application, open your terminal, then enter:
   ```
   cd ~/Desktop/Part-Time-Application
   git pull origin master
@@ -60,7 +60,7 @@ ng serve
 
 ## Installation 
 
-Please make sure you have git-bash and npm on your machine
+Please make sure you have git-bash and npm on your machine.
 <br>
 
 For 1-st time user,
